@@ -6,21 +6,16 @@ public class MusicFIle {
 // Star Knight.
 	public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 		Scanner sc = new Scanner(System.in);
-		
 		File file = new File("REal.wav");
 		AudioInputStream audioStream= AudioSystem.getAudioInputStream(file);
 		Clip clip = AudioSystem.getClip();
 		clip.open(audioStream);
-		
 		String response ="";
-		
 		while(!response.equals("Q")) {
 			System.out.println("P = play, S = Stop, R =Reset, Q = Quit");
 			System.out.println("Enter your choice");
-			
 			response =sc.next();
 			response = response.toUpperCase();
-			
 			switch(response) {
 			case("P"):clip.start();
 			break;
