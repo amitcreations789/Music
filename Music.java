@@ -4,6 +4,7 @@ import java.util.Scanner;
 import javax.sound.sampled.*;
 public class MusicFIle {
 // Star Knight.
+	
 	public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
 		Scanner sc = new Scanner(System.in);
 		File file = new File("REal.wav");
