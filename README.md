@@ -1,6 +1,6 @@
 # How to make a music player using java -
 
-- Create or convert a music file to wav file (because java doesn't support any other type of music files. 
+- Create or convert a music file to .wav file (because java doesn't support any other type of music files. 
 - After converting that just copy that file and paste it on your package file. 
 -  If you are using Eclipse ID then it would be more easy.
 -  After pasting that music file into your package file, just go to my repository and copy my code and paste it.
